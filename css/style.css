@@ -1,0 +1,101 @@
+body{
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem 0 3rem;
+}
+
+nav > img{
+    width: 15%;
+}
+
+ul{
+    display: flex;
+    margin-top: 3rem;
+}
+
+li>a{
+    color:#ffffff!important;
+    text-decoration: none;
+} 
+ul>li{
+    font-size: 17px;
+    font-family: sans-serif;
+    margin: 15px;
+}
+
+header .container{
+        padding: 0 3rem 0 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.container .box{
+    display: flex;
+}
+.sec1 h3{
+    color:#ffffff;
+    font-size: 3rem;
+    font-family: system-ui;
+    margin: 0;
+}
+.sec1 h4{
+    color:#ffffff;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin: 0;
+   
+}
+.sec1 p{
+    color:#ffffff;
+    font-family: sans-serif;
+    width: 75%;
+}
+.sec1{
+    
+    margin: 5rem 3rem;
+}
+
+.sec2{
+    margin: 0rem 3rem;
+}
+
+.button{
+    margin-top: 3rem;
+}
+
+.button a{
+    background-color: #c22b17;
+    border: 1px solid white;
+    text-decoration: none;
+    border-radius:10px;
+    color: #ffffff;
+    padding: 0.7rem 2rem ;
+    font-family: sans-serif;
+    margin-top: 1rem;
+}
+
+.drinks{
+    justify-content: center;
+    display: flex;
+}
+
+.drinks>img{
+    width: 5%;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+
+}
+.drinks > img:hover{
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+}
